@@ -4,20 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>github_sampleProject</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 40px 20px;
+      }
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+      }
+      h1 {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 30px;
+        text-align: center;
+        font-size: 2.5em;
+      }
+      .content {
+        padding: 30px;
+      }
+      h2 {
+        color: #333;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      ul {
+        list-style: none;
+      }
+      li {
+        padding: 12px 0;
+        border-bottom: 1px solid #eee;
+        color: #555;
+        font-size: 1.1em;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      li:last-child {
+        border-bottom: none;
+      }
+      li i {
+        color: #667eea;
+        width: 20px;
+      }
+      .screenshot-section {
+        margin-top: 40px;
+        padding-top: 30px;
+        border-top: 2px solid #eee;
+      }
+      .screenshot-section img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        margin-top: 20px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Members List</h1>
-    <ul>
-      <li>Member 1 : Mahmoud Awad Saad</li>
-      <li>Mahmoud Awad Saad - From branch (newBranchByMahmoudAwad)</li>
-      <li>Member 2 : Abdelrahman Ezzat Mohamed</li>
-      <li>Abdelrahman Ezzat - From branch "Abdelrahman-Ezzat"</li>
-      <li>Member 3 : Khaled saeed elsayed</li>
-      <li>khaled saeed - From branch "khaled-saeed-branch"</li>
-      <li>Member 4 : Ahmed Tarek Abdallah</li>
-      <li>Ahmed Tarek - From branch "Ahmed-Tarek"</li>
-      <li>Member 5 : Mohamed Saleh Tag Eldin</li>
-      <li>Mahmoud Saleh - From branch "Mahmoud-Saleh"</li>
-    </ul>
+    <div class="container">
+      <h1><i class="fas fa-users"></i> Members List</h1>
+      <div class="content">
+        <h2><i class="fas fa-github"></i> Team Members</h2>
+        <ul>
+          <li><i class="fas fa-user-circle"></i> Member 1 : Mahmoud Awad Saad</li>
+          <li><i class="fas fa-code-branch"></i> Mahmoud Awad Saad - From branch (newBranchByMahmoudAwad)</li>
+          <li><i class="fas fa-user-circle"></i> Member 2 : Abdelrahman Ezzat Mohamed</li>
+          <li><i class="fas fa-code-branch"></i> Abdelrahman Ezzat - From branch "Abdelrahman-Ezzat"</li>
+          <li><i class="fas fa-user-circle"></i> Member 3 : Khaled saeed elsayed</li>
+          <li><i class="fas fa-code-branch"></i> khaled saeed - From branch "khaled-saeed-branch"</li>
+          <li><i class="fas fa-user-circle"></i> Member 4 : Ahmed Tarek Abdallah</li>
+          <li><i class="fas fa-code-branch"></i> Ahmed Tarek - From branch "Ahmed-Tarek"</li>
+          <li><i class="fas fa-user-circle"></i> Member 5 : Mohamed Saleh Tag Eldin</li>
+          <li><i class="fas fa-code-branch"></i> Mahmoud Saleh - From branch "Mahmoud-Saleh"</li>
+        </ul>
+
+      </div>
+    </div>
   </body>
 </html>
